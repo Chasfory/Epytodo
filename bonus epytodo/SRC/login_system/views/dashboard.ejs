@@ -1,0 +1,12 @@
+<%- include('header') -%> <!-- Ajout du header -->
+
+<div class="text-center center-div mt-5" id="login">
+    <div class="container w-25 border py-5 mt-5">
+        <h3 style="color: white;">Successful connection</h3>
+        <h5 style="color: yellowgreen;" ><%= locals.user ? user : "User" %></h5>
+        <a href="/route/logout">Logout ?</a>
+    </div>
+</div> 
+
+
+<%- include('footer') -%> <!-- Ajout du footer --> 

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+
+body{
+    font-family: 'Acme', sans-serif;
+    background: linear-gradient(-45deg, green, yellowgreen, rgb(85, 173, 85), #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+#login .header{
+    padding: 20rem;
+    position: relative;
+    bottom: 130px;
+}
+
+#login .container {
+     background-color: black;
+}
+
+.center-div{ /*Pour donner un renbourage au form et le faire descendre un epu */
+    padding-top: 10%;
+}
+
+.btn.btn-success{ /*Pour aggrendir le button submit */
+    padding: .4em 2em;
+}
+
+form{ /*pour mieux centrer les elements du form */
+    padding: 0 3em;
+}
+
+#login .title > span{ /*pour changer la taille de login in ...*/
+    font-size: .8em;
+}
